@@ -60,7 +60,7 @@
 -(UIBarButtonItem *)previousButton
 {
     if (_previousButton) return _previousButton;
-    _previousButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:105 target:nil action:nil];
+    _previousButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:106 target:nil action:nil];
     return _previousButton;
 }
 
@@ -75,7 +75,7 @@
 -(UIBarButtonItem *)nextButton
 {
     if (_nextButton) return _nextButton;
-    _nextButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:106 target:nil action:nil];
+    _nextButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:105 target:nil action:nil];
     return _nextButton;
 }
 
